@@ -3,8 +3,9 @@ import { useState } from "react";
 import "./App.css";
 import SearchCity from "./components/SearchCity";
 import WeatherInformation from "./components/WeatherInformation";
-import { useDispatch } from "react-redux";
+//import { useDispatch } from "react-redux";
 import { Col, Container, Row } from "react-bootstrap";
+import './index.css';
 
 function App() {
   //const dispatch = useDispatch()
